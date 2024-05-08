@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Form Tag In Html</title>
+</head>
+<body bgcolor="Pink">
+	<form name="Student Form" method="post">
+		<fieldset>
+			<legend>Personal information Of Student </legend><br>
+
+			FirstName= <input type="text" name="Firstname"><br><br>
+			MiddleName= <input type="text" name="Middlename"><br><br>
+			LastName= <input type="text" name="Lastname"><br><br>
+			EmailId= <input type="text" name="EmailId"><br><br>
+
+
+			DOB= <input type="Date" name="Enter DOB"><br><br>
+
+		    Address= <textarea rows="5"cols="30"name="Address" spellcheck="false">Please enter your address</textarea><br><br>
+
+			Gender= <br>
+			<input type="radio" name="Gender">Male<br><br>
+			<input type="radio" name="Gender">Female<br><br>
+
+			Category=
+			<input type="text" name="Cat1" list="Category"><br><br>
+			<datalist id="Category"><br><br>
+				<option value="Open"><br><br>
+				<option value="St"><br><br>
+				<option value="OBC"><br><br>
+			</datalist>
+
+			Languages Know= <br>
+			<input type="checkbox" name="cb1">C++<br><br>
+			<input type="checkbox" name="cb2">Java<br><br>
+			<input type="checkbox" name="cb3">Python<br><br>
+			<input type="checkbox" name="cb4">Javascript<br><br>
+			<input type="checkbox" name="cb5">Html<br><br>
+			<input type="checkbox" name="cb6">CSS<br><br>
+
+			City=
+			<select multiple>
+				<option>Pune</option>
+				<option>Mumbai</option>
+				<option>Nashik</option>
+				<option>Banglore</option>
+				<option>Gujrat</option>
+				<option>Kolkata</option>
+				
+			</select>
+
+            </fieldset><br><br>
+
+            Username=
+            <input type="text" name="Enter Username"><br><br>
+
+            Password=
+            <input type="password" name="Enter Password"><br><br>
+            <br><br>
+
+            <input type="button" name="Submit"value="SUBMIT"><br><br>
+            <input type="reset" name="cancel" value="CLEAR">
+            <br><br>
+
+
+		
+	</form>
+
+</body>
+</html>
